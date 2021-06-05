@@ -1,3 +1,4 @@
+![Deployment on Firebase](https://github.com/felix-steiner/landing-page/actions/workflows/main.yml/badge.svg)
 # SeFeDa Landing Page 🔥
 
 This is the source code of the landing page of SeFeDa.
@@ -27,3 +28,4 @@ This repository triggers a Github Action as soon changes are pushed to the `rele
 2. Run `git fetch`
 3. Run `git rebase origin/master`
 4. Run `git push`
+5. Navigate to https://sefeda-landing-page.web.app
