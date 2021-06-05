@@ -20,4 +20,10 @@ Since this is a small repository it is easier to commit directly on the `master`
 
 ## Continuous Deployment ⚡
 This repository triggers a Github Action as soon changes are pushed to the `release` branch. This action executes a production build and deploys it to Firebase. <br>
-⚠ Caution: Not implemented yet!
+
+### Steps
+1. Make sure all your changes you want to publish are on `origin/master`
+2. Run `git checkout release`
+2. Run `git fetch`
+3. Run `git rebase origin/master`
+4. Run `git push`
