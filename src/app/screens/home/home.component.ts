@@ -13,8 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  showMobileMenu(show: boolean) {
+  showMobileMenu(show: boolean): void {
    this.isMobileMenuShown = show;
-   console.log('menu is toggeled');
   }
 }
